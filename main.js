@@ -54,3 +54,8 @@ const filterProperties = (array = null, property = null, value = null) => {
 }
 
 console.log(filterProperties()); //passing nothing to get the errors - set argument values to null intentionally - best practice
+
+
+const divElement = document.querySelector('#main');
+
+divElement.innerHTML = "New test text"
