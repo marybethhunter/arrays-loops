@@ -32,3 +32,7 @@ const groupOne = [{
   unique: "seafood lover",
   image: "https://avatars.githubusercontent.com/u/86807856?v=4",
 }];
+
+const divElement = document.querySelector('#main');
+
+divElement.innerHTML = "New test text"
